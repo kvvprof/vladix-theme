@@ -2,7 +2,7 @@
 
 A muted dark pastel theme for VS Code — simple and harmonious, designed for comfortable coding.
 
-![Example 1](example.png)
+![Example](example.png)
 
 ## Features
 

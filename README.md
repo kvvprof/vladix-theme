@@ -22,5 +22,3 @@ A muted dark pastel theme for VS Code — simple and harmonious, designed for co
 - **Numbers / Constants:** #FF8C8C
 - **Types / Classes:** #5C91D1
 - **JSON / Object Keys:** #B79ED9
-
-A simple, harmonious theme designed for comfortable coding.

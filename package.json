@@ -1,0 +1,27 @@
+{
+  "name": "vladix-theme",
+  "displayName": "Vladix Theme",
+  "description": "A muted dark pastel theme for VS Code — simple and harmonious, designed for comfortable coding.",
+  "version": "1.0.0",
+  "publisher": "kvvprof",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vladix Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vladix-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kvvprof/vladix-theme.git"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "name": "Vladix Theme",
+  "colors": {
+    "titleBar.activeBackground": "#252525",
+
+    "editor.background": "#252525",
+    "editor.foreground": "#D1CFC0",
+    "editorCursor.foreground": "#F67050",
+    "editor.lineHighlightBackground": "#2B2D30",
+    "editor.selectionBackground": "#3A3A3A70",
+    "editor.inactiveSelectionBackground": "#3A3A3A40",
+    "editor.selectionHighlightBackground": "#3A3A3A30",
+
+    "editorSuggestWidget.background": "#2B2D30",
+    "editorSuggestWidget.foreground": "#D1CFC0",
+    "editorSuggestWidget.highlightForeground": "#F67050",
+    "editorSuggestWidget.selectedBackground": "#4A739B",
+    "editorSuggestWidget.border": "#4A739B",
+
+    "editorGroupHeader.tabsBackground": "#252525",
+    "tab.activeBackground": "#2B2D30",
+    "tab.inactiveBackground": "#252525",
+    "tab.hoverBackground": "#2C2E31",
+
+    "sideBar.background": "#252525",
+    "activityBar.background": "#252525",
+    "statusBar.background": "#252525",
+    "statusBar.foreground": "#9CA0A596",
+
+    "editorLineNumber.foreground": "#55A0B0",
+    "editorLineNumber.activeForeground": "#F67050",
+
+    "terminal.background": "#252525",
+    "terminal.foreground": "#D1CFC0",
+    "terminalCursor.foreground": "#F67050",
+
+    "input.background": "#252525",
+    "input.foreground": "#D1CFC0",
+    "button.background": "#4A739B",
+    "button.foreground": "#252525",
+    "button.hoverBackground": "#5A8EA8",
+
+    "list.hoverBackground": "#2B2D30",
+    "list.activeSelectionBackground": "#2B2D30",
+    "list.inactiveSelectionBackground": "#2B2D30",
+    "list.focusBackground": "#2B2D30",
+    "list.focusOutline": "#2B2D30"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": { "foreground": "#7A7E87", "fontStyle": "italic" }
+    },
+    {
+      "name": "Keywords",
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": { "foreground": "#D1CFC0", "fontStyle": "bold" }
+    },
+    {
+      "name": "Variables",
+      "scope": ["variable", "variable.other", "variable.parameter"],
+      "settings": { "foreground": "#6ACFF6" }
+    },
+    {
+      "name": "Functions & Methods",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call",
+        "support.function"
+      ],
+      "settings": { "foreground": "#F78A6B" }
+    },
+    {
+      "name": "Strings & Text",
+      "scope": ["string", "text", "markup.inline.raw"],
+      "settings": { "foreground": "#8AC88A" }
+    },
+    {
+      "name": "JSX Attributes",
+      "scope": [
+        "entity.other.attribute-name.jsx",
+        "entity.other.attribute-name.tsx"
+      ],
+      "settings": { "foreground": "#E0E0D0" }
+    },
+    {
+      "name": "Constants / Numbers",
+      "scope": [
+        "constant.other.color",
+        "constant.numeric",
+        "constant.language",
+        "support.constant",
+        "constant.character",
+        "constant.escape",
+        "keyword.other.unit",
+        "keyword.other"
+      ],
+      "settings": { "foreground": "#FF8C8C" }
+    },
+    {
+      "name": "Classes & Types",
+      "scope": ["entity.name.type", "support.class", "entity.name.tag"],
+      "settings": { "foreground": "#5C91D1" }
+    },
+    {
+      "name": "Object Keys / JSON Keys",
+      "scope": [
+        "meta.object-literal.key",
+        "support.type.property-name",
+        "meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": { "foreground": "#B79ED9" }
+    },
+    {
+      "name": "Operators & Default",
+      "scope": ["operator", "punctuation"],
+      "settings": { "foreground": "#D1CFC0" }
+    },
+    {
+      "name": "Brackets & Parentheses",
+      "scope": [
+        "punctuation.section.scope.begin",
+        "punctuation.section.scope.end",
+        "punctuation.section.block.begin",
+        "punctuation.section.block.end",
+        "punctuation.section.braces.begin",
+        "punctuation.section.braces.end",
+        "punctuation.section.brackets.begin",
+        "punctuation.section.brackets.end",
+        "punctuation.section.parens.begin",
+        "punctuation.section.parens.end"
+      ],
+      "settings": { "foreground": "#D1CFC0" }
+    }
+  ]
+}
